@@ -1,0 +1,19 @@
+{
+  "name": "smart-repair-hub",
+  "version": "1.0.0",
+  "description": "Autonomous Vehicle Telemetry & SAP Smart Repair Hub",
+  "repository": "none",
+  "license": "ISC",
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "sql"
+      }
+    },
+    "protocols": {
+      "odata": {
+        "path": "/v4"
+      }
+    }
+  }
+}
